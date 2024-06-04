@@ -19,3 +19,7 @@ resource "aws_instance" "DB_server" {
     Name = "Terraform-Practice"
   }
 }
+
+resource "aws_iam_user" "demouser" {
+    name = "tuckerdemo"
+}
